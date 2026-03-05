@@ -1711,7 +1711,7 @@ micro_wake_word:
     gain_factor: 4
   stop_after_detection: false
   models:
-    - model: https://github.com/kahrendt/microWakeWord/releases/download/okay_nabu_20241226.3/okay_nabu.json
+    - model: https://raw.githubusercontent.com/rollacode/wake-word-models/master/okay_nabu.json
       id: okay_nabu
     - model: hey_jarvis
       id: hey_jarvis
@@ -1719,7 +1719,7 @@ micro_wake_word:
       id: hey_mycroft
     - model: https://raw.githubusercontent.com/rollacode/wake-word-models/master/hey_rollo.json
       id: hey_rollo
-    - model: https://github.com/kahrendt/microWakeWord/releases/download/stop/stop.json
+    - model: https://raw.githubusercontent.com/rollacode/wake-word-models/master/stop.json
       id: stop
       internal: true
   vad:
